@@ -29,7 +29,7 @@ public class Livro {
     private Integer capitulos;
 
     @Column(nullable = false)
-    private String isbr;
+    private String isbn;
 
     @Column(nullable = false, unique = true)
     private String editora;
